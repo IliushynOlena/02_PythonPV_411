@@ -94,3 +94,9 @@ else:
    print("Error")
 #number %2 == 0
 #number %2 == 1
+
+Gb = 1 Gb
+bit= 100
+23 hours
+
+0.1 Mb/s = 100000 b/s
