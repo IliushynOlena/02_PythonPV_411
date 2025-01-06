@@ -1,4 +1,4 @@
-'''
+
 line = "Hello world. Have a nice day!!!!"#25
 
 num = 10
@@ -17,6 +17,7 @@ while i <= end:
 print()
 
 
+line = "Hello world. Have a nice day!!!!"#25
 
 for letter in line:
     print(letter, end=" ")
@@ -81,7 +82,7 @@ while i <= num:
         continue
     print(i, end=" ")
 
-'''
+
 # counter = 0
 # number = int(input("Enter number : "))#17 ....17/1 17/2 17/3 17/4....17/17
 # for i in range(1, number+1):

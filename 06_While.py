@@ -41,26 +41,28 @@ print("Hello world")
 # 15 - 1 15 16 17 
 
 
-i = 0
-while  i < 10:
-    i+=1
-    print(i , "Hello world")
-# 1.....10
-i = 1
-while i <= 10:
-    print(i, end=" ")
-    i+=1
-print()
+# i = 0
+# while  i < 10:
+#     i+=1
+#     print(i , "Hello world")
 
-# вивести всі числа від 10 до 0
-i = int(input("Enter number : "))
-while i >= 0:
-    print(i, end=" ")
-    #8 # 8
-    i-=1
-# i = i - 1
-# i -= 1
-#print(10- 1)
+
+
+# i = 1
+# while i <= 10:
+#     print(i, end=" ")
+#     i+=1
+# print()
+
+# # вивести всі числа від 10 до 0
+# i = int(input("Enter number : "))
+# while i >= 0:
+#     print(i, end=" ")
+#     #8 # 8
+#     i-=1
+# # i = i - 1
+# # i -= 1
+# #print(10- 1)
 
 number = int(input("Enter number : "))
 if number < 0 or number > 10:
@@ -70,5 +72,7 @@ else:
     while i <= 10:
         print(f"{number} * {i} = {number * i}")
         i+=1
+        # if i == 5:
+        #     break
     else:
         print("="*30)
