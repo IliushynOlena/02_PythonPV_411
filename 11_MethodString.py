@@ -240,3 +240,5 @@ number = "+123"
 print(number.zfill(6))
 
 #"dkjhgkldsdfh6df5h6+df5h+df6h5df+6h L joegjoejgpw 65 465 4"
+mess = input("Enter words ..... ")
+mess.split()
