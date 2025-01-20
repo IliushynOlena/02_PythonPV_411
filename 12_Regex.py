@@ -111,5 +111,7 @@ print(f"\t{str_3} ---> \t {re.sub('\w{3}',"white",str_3)}")
 phone_number = input("Enter phone number : ")
 pattern = "\+380\d{2}\-\d{3}\-\d{2}\-\d{2}"
 
-match = re.search(pattern, phone_number).group(0)
-print(match)
+match = re.search(pattern, phone_number)#Match ... NOne
+if match != None:
+    match = match.group(0)
+    print(match)
