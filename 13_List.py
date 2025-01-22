@@ -40,8 +40,12 @@ print(list_numbers)
 for num in list_numbers:
     print(num, end=" ")
 print()
+
+dob = 1
 for index in range(len(list_numbers)):
-    print(list_numbers[index])
+    if index%3 == 0:
+        dob *= list_numbers[index]
+        print(list_numbers[index])
 #for i in "example" ---> e x a m p le 
 list_1 = [i for i in "example"]
 print(list_1)
