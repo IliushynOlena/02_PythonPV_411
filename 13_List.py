@@ -135,11 +135,18 @@ category1 = ["Drama", "Comedy", "Fantasy"]
 category2 = ["Cartoon","Horor","History","Science"]
 print(category1+ category2)
 print(category1*2)
-
-for film in category1:
+#start = 0; 
+for film in category1[1:5:1]:
     print(film)
-
-for index in range(len(category1)):
+#range(size) -> size = 3 => range(3) => start = 0; end= 2;step = 1 ---> 0 1 2
+# category1[0]
+# category1[1]
+# category1[2]
+# category1[3]
+#range(3) ---> 0 1 2
+#range(1,5,1)
+#range(1,3)
+for index in range(1,len(category1),1):
     print(category1[index])
 
 print("Methods list : ")
