@@ -66,6 +66,7 @@
 colors = ['red','green','blue','pink','black',"white"]
 try:
     index = int(input("Enter position of color : "))
+    #////
     print(colors[index])
 except ValueError:
     print("Value Error")
