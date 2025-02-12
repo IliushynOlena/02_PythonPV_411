@@ -106,6 +106,12 @@ filtered_list = list(filter( lambda x:x> 0 and x <= 10, numbers))
 print(numbers)
 print(filtered_list)
 
+
+a = 10
+a = "hello"
+a = 3.14
+a = True
+
 colors = ["red", "green","blue","yellow","pink","grey"]
 
 # def checkColor(color):
