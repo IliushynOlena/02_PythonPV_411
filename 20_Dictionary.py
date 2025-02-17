@@ -61,7 +61,11 @@ student['email'] = 'olena@gmail.com'
 print(student)
 
 students = [
-    { 'name':'Stas1','lastname':'Bondar','rating':11.2,'group' : 'PV411','birthday':'25.01.2007'},
+    { 'name':'Stas1',
+     'lastname':'Bondar',
+     'rating':11.2,
+     'group' : 'PV411',
+     'birthday':'25.01.2007'},
     { 'name':'Stas2','lastname':'Bondar','rating':11.2,'group' : 'PV411','birthday':'25.01.2007'},
     { 'name':'Stas3','lastname':'Bondar','rating':11.2,'group' : 'PV411','birthday':'25.01.2007'},
     { 'name':'Stas4','lastname':'Bondar','rating':11.2,'group' : 'PV411','birthday':'25.01.2007','marks':[11,12,10,9,3]},
